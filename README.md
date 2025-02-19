@@ -20,7 +20,7 @@ AI 需要调校，可能会输出预期以外的结果。
 由于需要配置数据库，建议使用 `docker-compose` 安装
 
 ```bash
-https://github.com/vpslog/let-monitor/
+git clone https://github.com/vpslog/let-monitor/
 cd let-monitor
 # nano docker-compose.yml 修改密码
 docker compose up -d
